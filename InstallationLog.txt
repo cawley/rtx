@@ -1,0 +1,89 @@
+************************************* Invoked: Tue Jul 18 15:31:50 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[5] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: en-US
+[8] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:31:50 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[23] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[23] Found 0 cached items.
+[23] Language: en-US
+[23] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:31:50 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[16] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[16] Found 0 cached items.
+[16] Language: en-US
+[16] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:31:58 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[5] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[8] Language: en-US
+[8] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:31:59 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[19] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[19] Found 0 cached items.
+[19] Language: en-US
+[19] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:31:59 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[9] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[9] Found 0 cached items.
+[9] Language: en-US
+[9] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:43:44 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -m64, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[7] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[7] Found 0 cached items.
+[7] Language: en-US
+[7] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:43:45 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -m32, -Wp,-v, -E, -dM, -x, c++, nul
+[3] Operations sanity check succeeded.
+[8] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[8] Found 0 cached items.
+[32] Language: en-US
+[32] Script file does not exist.
+************************************* Invoked: Tue Jul 18 15:43:45 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c++98, -Wp,-v, -E, -dM, -x, c++, nul
+[2] Operations sanity check succeeded.
+[26] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[26] Found 0 cached items.
+[27] Language: en-US
+[27] Script file does not exist.
+************************************* Invoked: Tue Jul 18 16:03:07 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -dumpmachine
+[5] Operations sanity check succeeded.
+[5] Warning: Cannot create lock file "C:\Users\LiamCawley\AppData\Local\Temp\msys2-x86_64-202305261234865.lock": The file exists.
+ (0x00000050)
+[17] UnableToStart : Unable to start installer : Another msys2-x86_64-20230526 instance is already running. Wait until it finishes, close it, or restart your system.
+************************************* Invoked: Tue Jul 18 16:03:21 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c17, -m64, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[3] Warning: Cannot create lock file "C:\Users\LiamCawley\AppData\Local\Temp\msys2-x86_64-202305261234865.lock": The process cannot access the file because it is being used by another process.
+ (0x00000020)
+[13] UnableToStart : Unable to start installer : Another msys2-x86_64-20230526 instance is already running. Wait until it finishes, close it, or restart your system.
+************************************* Invoked: Tue Jul 18 16:03:32 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c17, -m32, -Wp,-v, -E, -dM, -x, c, nul
+[2] Operations sanity check succeeded.
+[12] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[12] Found 0 cached items.
+[12] Language: en-US
+[12] Script file does not exist.
+************************************* Invoked: Tue Jul 18 16:03:32 2023
+[0] Arguments: c:\Users\LiamCawley\Downloads\msys2-x86_64-20230526.exe, -std=c17, -Wp,-v, -E, -dM, -x, c, nul
+[3] Operations sanity check succeeded.
+[6] Using metadata cache from "C:/Users/LiamCawley/AppData/Local/cache\\qt-installer-framework\\d75f1c19-3379-3717-ae8d-1404b51494a9"
+[6] Found 0 cached items.
+[6] Language: en-US
+[7] Script file does not exist.
