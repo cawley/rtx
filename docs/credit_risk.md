@@ -1,7 +1,5 @@
 Credit risk plays a significant role in swap pricing. Swap contracts are typically not fully collateralized and hence, each party to the swap is exposed to the risk that the other party might default on its contractual obligations. This risk of default is known as counterparty credit risk.
 
-Here's how it influences swap pricing:
-
 1. **Credit Spreads**: If one party to the swap has a higher perceived risk of default (i.e., lower credit rating), the other party will demand compensation for bearing this extra risk. This compensation is reflected in the credit spread, which increases the overall swap rate for the higher-risk party.
 
 2. **Collateral Agreements**: To mitigate counterparty credit risk, the parties to a swap may agree to post collateral. The need for collateral will depend on the creditworthiness of the parties and can impact the pricing of the swap. High-quality collateral can help reduce the credit spread and thus the overall cost of the swap for a higher-risk party.
