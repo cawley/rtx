@@ -1,6 +1,9 @@
 import eikon as ek
 import pandas as pd
 
+# read this guide before proceeding
+# https://cdn.refinitiv.com/public/rd-lib-python-doc/1.0.0.0/book/en/sections/intro.html
+
 # access with API key
 ek.set_app_key("your_app_key")
 
