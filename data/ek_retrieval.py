@@ -10,8 +10,8 @@ ric = 'US10YT=RR'
 # define field (this example has close price)
 fields = ['CLOSE']
 
-# Get historical data
+# fetch historical data
 df, err = ek.get_data(ric, fields)
 
-# Save the data to a csv file
+# port 2 csv
 df.to_csv('10_year_treasury_prices.csv')
