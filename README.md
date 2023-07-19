@@ -15,13 +15,21 @@ This repository contains scripts for real-time data retrieval from Refinitiv on 
 
 ```bash
 # Clone the repository
-git clone https://github.com/[cawley]/[rtx].git
-cd [repo-name]
+git clone https://github.com/cawley/rtx.git
+cd rtx
 ```
 
 ### Install required libraries
 
 pip install -r requirements.txt
+
+## Usage
+
+Instructions on how to use the code or execute the scripts.
+
+```bash
+python script_name.py
+```
 
 ## Contribution
 
