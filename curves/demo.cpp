@@ -7,7 +7,6 @@
 
 using namespace std;
 
-// Function to split a string by a delimiter
 vector<string> split(const string &s, char delimiter) {
     vector<string> tokens;
     string token;
@@ -23,7 +22,6 @@ int main() {
     vector<queue<string>> columns;
     string line;
 
-    // Read the first line to determine the number of columns
     if (getline(file, line)) {
         vector<string> firstRow = split(line, ',');
         columns.resize(firstRow.size());
@@ -33,7 +31,6 @@ int main() {
         }
     }
 
-    // Read the rest of the lines
     while (getline(file, line)) {
         vector<string> row = split(line, ',');
 

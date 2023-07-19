@@ -1,18 +1,17 @@
 import pandas as pd
 import numpy as np
 from scipy.interpolate import interp1d
+from matplotlib import pyplot as plt
 
-# Assume we have the following list of traded prices
 traded_prices = [(1, 100), (2, 110), (3, 115), (4, 118), (5, 120)]
 
-# Convert the list of tuples into a DataFrame for easier manipulation
 df = pd.DataFrame(traded_prices, columns=['Time', 'Price'])
 
-# Generate the forward curve by calculating the difference between successive prices
+# generate the forward curve by calculating the difference between successive prices
 df['Forward'] = df['Price'].diff()
 
-# Fill the first forward value with the first price
-df['Forward'].iloc[0] = df['Price'].iloc[0]
+# fill the first forward value with the first price
+df.loc[0, 'Forward'] = df.loc[0, 'Price']
 
 # We can now create an interpolated forward curve with more granularity
 # First, define the function that will be used for interpolation
@@ -30,4 +29,8 @@ new_df = pd.DataFrame({
     'Forward': new_forward
 })
 
+new_df.plot(x='Time', y='Forward', kind='line')
+
 print(new_df)
+
+plt.show()
