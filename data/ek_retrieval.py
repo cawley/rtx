@@ -15,3 +15,8 @@ df, err = ek.get_data(ric, fields)
 
 # port 2 csv
 df.to_csv("10_year_treasury_prices.csv")
+
+# EXPLANATION:
+# gets the closing price of 10-year US Treasury bonds and saves it to a .csv file
+# https://developers.refinitiv.com/en/api-catalog/refinitiv-data-platform/refinitiv-data-library-for-python
+# this is the complete data library for python development with refinitiv
