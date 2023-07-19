@@ -5,6 +5,7 @@ import pandas as pd
 ek.set_app_key("your_app_key")
 
 # ric for 10yr bonds
+# ric is refinitiv id code
 ric = "US10YT=RR"
 
 # define field (this example has close price)
