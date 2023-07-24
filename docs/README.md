@@ -3,6 +3,20 @@
 
 In the swaps market, the rate is the agreed upon exchange rate between two parties in the contract. A simple use case could be a plain vanilla interest rate swap, where one party agrees to pay a fixed rate, while the other pays a floating rate tied to a benchmark such as SOFR.
 
+An interest rate swap is a financial derivative contract between two parties that involves the exchange of interest rates – one fixed and one floating. The most common type of interest rate swap involves one party agreeing to pay a fixed interest rate on a predetermined principal amount (the notional principal) for a set period, while the other party pays a floating interest rate on the same notional principal for the same period.
+
+These interest payments are netted against each other, with only the difference being exchanged. It's also important to note that the principal amount is usually not exchanged; it's mainly a theoretical construct used to calculate the interest payments.
+
+The question of why someone would choose to enter an interest rate swap instead of just buying a bond with a desirable interest rate is an excellent one. Here are a few reasons:
+
+Risk Management: A company might enter an interest rate swap to manage the risk associated with interest rate fluctuations. For example, if a company has a liability with a floating interest rate, it is exposed to the risk of interest rates rising in the future. By entering an interest rate swap where it pays a fixed rate and receives a floating rate, it can hedge this risk.
+
+Speculation: Financial institutions or traders might enter an interest rate swap to speculate on future movements in interest rates. If a trader believes that interest rates will rise, they could enter a swap where they receive a fixed rate and pay a floating rate. If interest rates do rise, the payments they receive from the swap will increase.
+
+Comparative Advantage: There can also be situations where two companies have different levels of access to fixed and floating rate borrowing, due to their credit ratings or other factors. They can use interest rate swaps to take advantage of each other's access to different markets, effectively borrowing at a lower overall interest rate.
+
+Flexibility and Customization: Interest rate swaps can also provide more flexibility and customization than traditional bonds. For example, you can customize the start and end dates, the notional principal amount, the exact reference rate for the floating payments, and other factors. This level of customization is generally not possible with standard bonds.
+
 ## Spread 
 
 The spread in swaps refers to the difference between the rates of two similar financial instruments. This is commonly used in interest rate swaps and credit default swaps. A simple use case could be an interest rate spread swap, where the payment from one party is tied to the difference between two benchmark interest rates, like the SOFR and the Treasury bill rate.
