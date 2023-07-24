@@ -1,9 +1,9 @@
-### Internal Docs
-
-### Trade Types
+# Trade Types
 Rate: In the swaps market, the rate is the agreed upon exchange rate between two parties in the contract. A simple use case could be a plain vanilla interest rate swap, where one party agrees to pay a fixed rate, while the other pays a floating rate tied to a benchmark such as LIBOR.
 
-Spread: The spread in swaps refers to the difference between the rates of two similar financial instruments. This is commonly used in interest rate swaps and credit default swaps. A simple use case could be an interest rate spread swap, where the payment from one party is tied to the difference between two benchmark interest rates, like the LIBOR and the Treasury bill rate.
+## Spread: 
+
+The spread in swaps refers to the difference between the rates of two similar financial instruments. This is commonly used in interest rate swaps and credit default swaps. A simple use case could be an interest rate spread swap, where the payment from one party is tied to the difference between two benchmark interest rates, like the LIBOR and the Treasury bill rate.
 
 A spread swap is a derivative contract where the return is based on the spread between two reference rates. Typically, these are interest rates, but they could also be yields on different types of bonds, commodities prices, or other benchmarks.
 
