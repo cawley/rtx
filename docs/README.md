@@ -1,5 +1,7 @@
 # Trade Types
-Rate: In the swaps market, the rate is the agreed upon exchange rate between two parties in the contract. A simple use case could be a plain vanilla interest rate swap, where one party agrees to pay a fixed rate, while the other pays a floating rate tied to a benchmark such as LIBOR.
+## Rate:
+
+In the swaps market, the rate is the agreed upon exchange rate between two parties in the contract. A simple use case could be a plain vanilla interest rate swap, where one party agrees to pay a fixed rate, while the other pays a floating rate tied to a benchmark such as LIBOR.
 
 ## Spread: 
 
