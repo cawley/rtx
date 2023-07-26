@@ -1,0 +1,53 @@
+Twelve Data authenticates users by valid API keys for both API and WebSocket. It can be specified in two ways:
+
+At query string, as &apikey=your_api_key
+At header, as Authorization="apikey your_api_key"
+
+A demo API key is used for sample requests to familiarize yourself with the API format. 
+Complete access to API is available with your API key.
+Specific endpoints are available starting only from Grow, Pro, or Enterprise plans. 
+However, they all can be tested as trial symbols across all markets. 
+API will return an error if the key is invalid or has insufficient permissions.
+
+API endpoints are prefixed with https://api.twelvedata.com
+WebSocket endpoints are prefixed with wss://ws.twelvedata.com
+
+How to separate
+Parameters are ampersand(&) separated.
+E.g. ?symbol=AAPL&interval=5min&output=200
+
+Casting
+Word casing doesn‘t matter when passing parameters.
+E.g. ?symbol=AAPL, ?symbol=AaPl, or ?symbol=aapl will all correctly work.
+
+Exchanges
+Symbol might be also passed in the form symbol:exchange_name.
+E.g. ?symbol=RY:TSX, ?symbol=AAPL:NASDAQ
+
+CSV
+When the format parameter is set to CSV, additional filename parameter might be used to specify the custom name of the output file. E.g. ?format=CSV&filename=my_own_csv_name
+
+Dates
+To get the most use of start_date, end_date, and outputsize parameters when accessing historical data, refer to this tutorial.
+
+Request
+Basic call
+All symbols should be comma delimited and provided in symbol parameter. E.g:
+/time_series?symbol=AAPL,QQQ,EUR/USD,IXIC
+
+Exchange specific call
+In order to call symbol from the specific exchange, use symbol_ticker:exchange format. E.g:
+/bbands?symbol=ETH/BTC:Huobi,TRP:TSX,INFY:BSE
+
+General
+All instruments might be called in an arbitrary order and mixes, such as stocks, forex, crypto, ETFs and indices.
+Request count will be incremented according to the number of passed symbols.
+Batch requests only support JSON format.
+Limited to 120 symbols per request.
+
+Response
+The response consists of the main object where the key is the symbol passed and value is the normal object consisting of meta, values, status.
+The response header will also include is_batch set to true if the request is batch with multiple returns symbols.
+
+Error handling
+In the case that there was an error during processing one of the symbols, the error will only be returned for that specific symbol without affecting other instrument responses.
