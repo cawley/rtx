@@ -4,13 +4,14 @@ import pandas as pd
 df = pd.read_csv("eventus_table_match.csv")
 
 # ask the user for the column name
-col_name = input("Enter the column name: ")
+col_name = input("Enter the filter column name: ")
 
-# ask the user for the entry
-entry = input("Enter the entry in the column: ")
+match_col_name = input("Enter the column you want to match to.")
 
 # get all the rows where the chosen column equals the entry
-df_a = df[df[col_name] == entry]
+df_a = df[col_name]
+
+input_list = df_a[match_col_name]
 
 # find the entries in the chosen column that appear elsewhere in the dataframe
 entries_in_col_a = df_a[col_name].unique()
