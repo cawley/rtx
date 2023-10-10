@@ -35,3 +35,19 @@ class LegCashFlows(YieldCurve):
 fixed_leg = LegCashFlows(maturity, yield_rates, notional_amount, fixed_rate, 0.5)
 fixed_leg_npv_test = fixed_leg.calculate_present_value()
 fixed_leg_npv_test  # Should return the NPV for the fixed leg
+
+class SwapPricing:
+    def __init__(self, maturity, yield_rates, notional, fixed_rate, floating_frequency, fixed_frequency=0.5):
+        self.fixed_leg = LegCashFlows(maturity, yield_rates, notional, fixed_rate, fixed_frequency)
+        self.floating_leg = LegCashFlows(maturity, yield_rates, notional, interpolated_yield_curve(floating_frequency), floating_frequency)
+    
+    def price_swap(self):
+        fixed_leg_npv = self.fixed_leg.calculate_present_value()
+        floating_leg_npv = self.floating_leg.calculate_present_value()
+        swap_npv = fixed_leg_npv - floating_leg_npv
+        return swap_npv
+
+# Test the SwapPricing class
+swap = SwapPricing(maturity, yield_rates, notional_amount, fixed_rate, 0.25)
+swap_npv_test = swap.price_swap()
+swap_npv_test  # Should return the NPV for the swap
